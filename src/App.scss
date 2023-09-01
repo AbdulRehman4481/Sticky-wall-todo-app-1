@@ -1,0 +1,38 @@
+// @import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+@import './sass/bootstrap';
+@import './sass/sider';
+@import './sass/loaders';
+@import './sass/auth';
+@import './sass/registerAuth';
+
+
+#root {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #C1CDBB;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#deleteIcon {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.box {
+    margin: auto;
+    margin-top: 80px;
+    width: 80%;
+}
+#mainAuth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
